@@ -8,7 +8,8 @@ int main (void)
   // Biblioteca de palavras
   char palavras[][TAMANHO_PALAVRAS]={"rotina", "retina", "palhaco", "lembranca",
                                      "sistema", "musica","curioso", "fantasia",
-				     "malabares","sonhador","atitude","pacoca"};
+                                     "malabares","sonhador","atitude","pacoca",
+                                     "sonhador"};
 
   // Ponteiros necessarios
   char *palavraEscolhida, *letrasCertas;
