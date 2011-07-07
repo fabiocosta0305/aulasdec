@@ -1,3 +1,7 @@
+/*
+ * main.c
+ * /
+
 #include "roletrando.h"
 
 int main (void)
