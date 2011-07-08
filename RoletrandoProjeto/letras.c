@@ -1,3 +1,7 @@
+/*
+ * letras.c
+ */
+
 #include "roletrando.h"
 
 int checaLetra (const char* palavra, const char* letrasCertas, char letra)

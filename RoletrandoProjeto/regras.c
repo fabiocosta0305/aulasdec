@@ -1,3 +1,7 @@
+/*
+ * regras.c
+ */
+
 #include "roletrando.h"
 
 void explicarRegras (void)
