@@ -1,0 +1,23 @@
+#
+# Segunda tentativa de Makefile
+#
+
+C_COMP=gcc
+FONTES=$(wildcard *.c)    # equivale a dizer FONTES=main.c regras.c letras.c
+HEADERS=$(wildcard *.h)
+
+.PHONY: all clean tar
+
+all: roletrando
+    
+roletrando: $(FONTES:.c=.o)
+	$(C_COMP) -o $@ $^
+
+%.o: %.c $(HEADERS)
+	$(C_COMP) -c $< -o $@
+
+clean:
+	rm -f *.o roletrando *~
+
+tar:
+	tar cvjf roletrando.tar.bz2 $(FONTES) $(HEADERS)
