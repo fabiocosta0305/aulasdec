@@ -2,7 +2,6 @@
 
 unsigned int fatorial (unsigned int a)
 {
-  printf("Estive aqui - %d!\n",a);
   if ((a==0) || (a==1))
     return 1;
   else
