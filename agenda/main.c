@@ -1,6 +1,5 @@
 #include "agenda.h"
 
-void creditos (void);
 void limpaDados (agenda *minhaAgenda);
 
 int main(void)
