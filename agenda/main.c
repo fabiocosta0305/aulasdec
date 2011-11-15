@@ -9,11 +9,11 @@ int main(void)
   creditos();
   do
     {
-      printf("Escolha uma das opções abaixo para a sua agenda\n\n");
+      printf("Escolha uma das opÃ§Ãµes abaixo para a sua agenda\n\n");
       printf("1 - Inserir um novo registro\n");
       printf("2 - Listar os registros inseridos\n");
       printf("3 - Sair\n");
-      printf("4 - Créditos\n\n\nEscolha sua opção:");
+      printf("4 - CrÃ©ditos\n\n\nEscolha sua opÃ§Ã£o:");
       scanf("%d",&op);
       while(getchar()!='\n');
       switch(op)
@@ -32,16 +32,17 @@ int main(void)
           creditos();
           break;
         default:
-          printf("Opção inválida!\n");
+          printf("OpÃ§Ã£o invÃ¡lida!\n");
         }
     } while (op!=3);
+    return(0);
 }
 
 void creditos(void)
 {
     printf("Programa de agenda simples do curso de C livre do Aulas de C\n\n\n\n");
-    printf("Autor...: Fábio Emilio Costa <fabiocosta0305@gmail.com>\n");
-    printf("Licença.: GPL 2\n\n");
+    printf("Autor...: FÃ¡bio Emilio Costa <fabiocosta0305@gmail.com>\n");
+    printf("LicenÃ§a.: GPL 2\n\n");
 }
 
 void limpaDados (agenda *minhaAgenda)

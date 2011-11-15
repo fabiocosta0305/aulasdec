@@ -8,7 +8,7 @@ typedef struct _agendainfo
   char rua[80];
   char cidade[40];
   char estado[40];
-  char cep[10];
+  char cep[11];
   char datanasc[11];
   char email[100];
   int sexo;                            // utilizaremos 0 para feminino e 1 para masculino

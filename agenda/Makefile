@@ -21,3 +21,6 @@ clean:
 
 tar:
 	tar cvjf agenda.tar.bz2 $(FONTES) $(HEADERS)
+
+zip:
+	zip agenda.zip $(FONTES) $(HEADERS)

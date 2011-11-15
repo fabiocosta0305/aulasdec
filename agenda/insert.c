@@ -73,10 +73,7 @@ void insereItem (agenda **head)
    */
 
   if (!*head)
-    {
       *head=entrada;
-      (*head)->next=NULL;
-    }
   else
     {
       hook=*head;
@@ -85,6 +82,7 @@ void insereItem (agenda **head)
     }
 
   entrada->entrada=dados;
+  entrada->next=NULL;
 
   return;
 }
